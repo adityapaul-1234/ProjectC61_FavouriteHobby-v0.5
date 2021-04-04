@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding-top: 800px; 
+    text-align: center;
+    background: linear-gradient( #00eeff 0%, #ae00ff 100%);
+}
+
+.profile{
+    height: auto;
+    width: auto;
+    margin: 100px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+.profile:hover{
+    transform: scale(1.1);
+    filter: grayscale(100%);
+    
+}
+
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    display: table;
+    width: 100%;   
+    z-index: 9;
+}
+
+#cycling{
+    height: 400px;
+    color: #FFFFFF;
+    opacity: 0.83;
+    width: 100%; 
+    text-align: justify;
+}
+
+#video{
+    height: 700px;
+    color: #FFFFFF;
+    opacity: 0.83;
+    width: 100%; 
+    text-align: center;
+   
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.6;
+    font-family: fantasy;
+    font-weight: 300;
+    text-align: center;
+}
+
+#name{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+} 
+
+h2{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Pacifico';
+}
+
+
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line{
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p{
+    max-width: 900px;
+    margin: 30px auto;
+    font-size: 20px;
+    line-height: 1.6;
+    color: white;
+    text-align: justify;
+}
+
+.menu{
+    list-style: none;
+    font-family: fantasy;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 15;
+    color: gold;
+    cursor: pointer;
+}
+
+.link{
+    display: inline;
+    float: left;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.link:hover{
+    background-color: gold;
+    transform: rotate(360deg);
+    transition: width 2s, height 2s, transform 1s;  
+}
+
+h5{
+    color: black;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+    
+}
+
+.benefits{
+    font-size: 25px;
+    color: aqua;
+}
+
+.types{
+    font-size: 25px;
+    color: aqua;
+}
+
+.linking{
+text-decoration: none;
+color: black;
+display: inline;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-left: 15px; 
+    margin-right: 15px;
+}
+   
+h6{
+    font-family: 'Pacifico';
+    font-size: 20px;
+    color: white;
+}
+
+.inspire {
+    display: inline-flex;  
+}
+
+
+.ins:hover{
+    transform: scale(1.1);
+    
+}
+
+#myname{
+    font-size: 20px;
+    color: white;
+}
